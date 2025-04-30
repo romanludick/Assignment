@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+header {
+  background: #0066cc;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links a.active {
+  text-decoration: underline;
+}
+
+.menu-toggle {
+  display: none;
+  background: none;
+  font-size: 24px;
+  color: white;
+  border: none;
+}
+
+.hero {
+  background: url('../images/hero.jpg') no-repeat center center/cover;
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.btn {
+  background: #0066cc;
+  color: white;
+  padding: 10px 20px;
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.features, .destinations, .about-us, .contact {
+  padding: 50px 0;
+  background-color: #fff;
+}
+
+.feature-grid, .destination-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.feature-item, .destination-card {
+  flex: 1 1 30%;
+  background: #eee;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.destination-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+form button {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .feature-grid, .destination-grid {
+    flex-direction: column;
+  }
+  .menu-toggle {
+    display: block;
+  }
+  .nav-links {
+    flex-direction: column;
+    display: none;
+    background-color: #0066cc;
+  }
+  .nav-links.show {
+    display: flex;
+  }
+}
