@@ -3,17 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>About Us - ExploreWorld</title>
-  <link rel="stylesheet" href="style.css"/>
+  <title>ExploreWorld - Travel Agency</title>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
+  <!-- Header / Navbar -->
   <header>
     <div class="container">
       <h1 class="logo">ExploreWorld</h1>
       <nav>
         <ul class="nav-links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html" class="active">About</a></li>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
         <button class="menu-toggle" onclick="toggleMenu()">☰</button>
@@ -21,26 +22,61 @@
     </div>
   </header>
 
-  <section class="about-us">
+  <!-- Hero Section -->
+  <section class="hero">
     <div class="container">
-      <h2>About ExploreWorld</h2>
-      <p>ExploreWorld is a modern travel agency committed to delivering unique and unforgettable travel experiences to clients worldwide. With expert guides and customizable packages, your dream vacation is just a click away.</p>
-
-      <h3>Our Mission</h3>
-      <p>To make travel accessible, exciting, and deeply personal for everyone — from solo adventurers to family explorers.</p>
-
-      <h3>Our Team</h3>
-      <ul>
-        <li>🌍 Anna - Senior Travel Consultant</li>
-        <li>🧭 Jake - Global Tour Guide</li>
-        <li>📞 Sarah - Customer Support Lead</li>
-      </ul>
+      <h2>Your Adventure Awaits</h2>
+      <p>Discover breathtaking destinations with ExploreWorld Travel.</p>
+      <a href="contact.html" class="btn">Book Now</a>
     </div>
   </section>
 
+  <!-- Features Section -->
+  <section class="features">
+    <div class="container">
+      <h2>Why Travel With Us?</h2>
+      <div class="feature-grid">
+        <div class="feature-item">
+          <h3>Expert Guides</h3>
+          <p>Local experts who help you experience authentic travel.</p>
+        </div>
+        <div class="feature-item">
+          <h3>Best Prices</h3>
+          <p>Affordable travel packages without hidden fees.</p>
+        </div>
+        <div class="feature-item">
+          <h3>24/7 Support</h3>
+          <p>Help and support whenever and wherever you need it.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Destinations Section -->
+  <section class="destinations">
+    <div class="container">
+      <h2>Top Destinations</h2>
+      <div class="destination-grid">
+        <div class="destination-card">
+          <img src="images/paris.jpg" alt="Paris">
+          <h3>Paris</h3>
+        </div>
+        <div class="destination-card">
+          <img src="images/bali.jpg" alt="Bali">
+          <h3>Bali</h3>
+        </div>
+        <div class="destination-card">
+          <img src="images/newyork.jpg" alt="New York">
+          <h3>New York</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
   <footer>
     <div class="container">
-      <p>&copy; 2025 ExploreWorld Travel Agency. All rights reserved.</p>
+      <p>&copy; 2025 ExploreWorld Travel. All rights reserved.</p>
     </div>
   </footer>
 
