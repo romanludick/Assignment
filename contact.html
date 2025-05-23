@@ -106,8 +106,33 @@
         </div>
     </footer>
 
-    <!-- javascript -->
-<script src="js/contact.js"></script>
-    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Check for selected car from fleet page
+            const selectedCar = localStorage.getItem('selectedCar');
+            
+            if (selectedCar) {
+                // Auto-fill the form for booking
+                document.getElementById('subject').value = 'reservation';
+                document.getElementById('message').value = `I would like to book the ${selectedCar}.\n\nAdditional details: `;
+                
+                // Clear the stored value
+                localStorage.removeItem('selectedCar');
+                
+                // Smooth scroll to form
+                setTimeout(() => {
+                    document.querySelector('.contact-container').scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }, 300);
+            }
+
+            // Optional: Form submission handling
+            document.getElementById('contactForm').addEventListener('submit', function(e) {
+                // You could add form validation here
+                // or send data via AJAX before redirecting
+            });
+        });
+    </script>
 </body>
 </html>
