@@ -158,3 +158,76 @@ header::after, .features .container::after {
 .vehicle ul {
     list-style-position: inside;
 }
+/* Fleet Page Enhancements */
+.vehicle {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.vehicle:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.vehicle img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 3px solid #e74c3c;
+}
+
+.vehicle-details {
+    padding: 20px;
+}
+
+.vehicle h3 {
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.price {
+    font-weight: bold;
+    color: #e74c3c;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+.vehicle ul {
+    list-style: none;
+    margin: 15px 0;
+}
+
+.vehicle ul li {
+    margin-bottom: 8px;
+    font-size: 0.9em;
+}
+
+.vehicle ul li i {
+    width: 20px;
+    color: #e74c3c;
+    margin-right: 8px;
+}
+
+.btn {
+    display: inline-block;
+    background: #e74c3c;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #c0392b;
+}
+
+.active {
+    color: #e74c3c !important;
+    font-weight: bold;
+}
