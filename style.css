@@ -426,3 +426,16 @@ font-weight: bold;
     }
 }
 
+/* remove when it doesnt work */
+
+/* Add to contact.css */
+select.reservation-selected {
+    border-left: 3px solid #e74c3c;
+    padding-left: 10px;
+}
+
+/* Animation for scroll target */
+.contact-container {
+    transition: all 0.3s ease;
+}
+
