@@ -1,49 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>About Us - ExploreWorld</title>
-  <link rel="stylesheet" href="style.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Roman's Car Rentals</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-  <header>
-    <div class="container">
-      <h1 class="logo">ExploreWorld</h1>
-      <nav>
-        <ul class="nav-links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html" class="active">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
-      </nav>
-    </div>
-  </header>
+    <header>
+        <div class="container">
+            <h1>Roman's Car Rentals</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="fleet.html">Our Fleet</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="about.html" class="active">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-  <section class="about-us">
-    <div class="container">
-      <h2>About ExploreWorld</h2>
-      <p>ExploreWorld is a modern travel agency committed to delivering unique and unforgettable travel experiences to clients worldwide. With expert guides and customizable packages, your dream vacation is just a click away.</p>
+    <section class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Our Story</h2>
+                    <p>Founded in 2015, Roman's Car Rentals began with a single vehicle and a passion for providing exceptional service to the people of Gaborone. What started as a small family business has grown into one of Botswana's most trusted car rental companies.</p>
+                    <p>We take pride in offering well-maintained vehicles at competitive prices, with a personal touch you won't find at larger rental chains. Our team goes above and beyond to ensure every customer finds the perfect vehicle for their needs.</p>
+                    <p>Today, we operate a diverse fleet of over 50 vehicles, serving both local residents and international visitors exploring the beauty of Botswana.</p>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1589829085413-56de8ae18c73?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Our rental office">
+                </div>
+            </div>
+            
+            <div class="mission-values">
+                <div class="container">
+                    <h2 style="text-align: center;">Our Mission & Values</h2>
+                    <div class="values-grid">
+                        <div class="value-card">
+                            <i class="fas fa-car"></i>
+                            <h3>Quality Vehicles</h3>
+                            <p>We maintain our fleet to the highest standards, ensuring reliability and comfort for every journey.</p>
+                        </div>
+                        <div class="value-card">
+                            <i class="fas fa-hand-holding-heart"></i>
+                            <h3>Customer Care</h3>
+                            <p>Your satisfaction is our priority. We're available 24/7 to assist with any needs during your rental.</p>
+                        </div>
+                        <div class="value-card">
+                            <i class="fas fa-tag"></i>
+                            <h3>Fair Pricing</h3>
+                            <p>No hidden fees. We offer transparent pricing and competitive rates for all our vehicles.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="team-section">
+                <h2 style="text-align: center; margin-bottom: 40px;">Meet Our Team</h2>
+                <div class="values-grid">
+                    <div class="value-card">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" class="team-member-img" alt="Team member">
+                        <h3>Roman Ludick</h3>
+                        <p>Founder & CEO</p>
+                        <p>With over 15 years in the automotive industry, Roman ensures our company maintains its high standards.</p>
+                    </div>
+                    <div class="value-card">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" class="team-member-img" alt="Team member">
+                        <h3>Amanda Kgosi</h3>
+                        <p>Operations Manager</p>
+                        <p>Amanda oversees our daily operations and ensures smooth rental experiences for all customers.</p>
+                    </div>
+                    <div class="value-card">
+                        <img src="https://randomuser.me/api/portraits/men/75.jpg" class="team-member-img" alt="Team member">
+                        <h3>Tebogo Molefe</h3>
+                        <p>Customer Service</p>
+                        <p>Tebogo and his team are available around the clock to assist with your rental needs.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-      <h3>Our Mission</h3>
-      <p>To make travel accessible, exciting, and deeply personal for everyone — from solo adventurers to family explorers.</p>
-
-      <h3>Our Team</h3>
-      <ul>
-        <li>🌍 Anna - Senior Travel Consultant</li>
-        <li>🧭 Jake - Global Tour Guide</li>
-        <li>📞 Sarah - Customer Support Lead</li>
-      </ul>
-    </div>
-  </section>
-
-  <footer>
-    <div class="container">
-      <p>&copy; 2025 ExploreWorld Travel Agency. All rights reserved.</p>
-    </div>
-  </footer>
-
-  <script src="js/script.js"></script>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Roman's Car Rentals. All rights reserved.</p>
+            <p style="margin-top: 10px;">
+                <a href="privacy.html" style="color: white; margin-right: 15px;">Privacy Policy</a>
+                <a href="terms.html" style="color: white;">Terms of Service</a>
+            </p>
+        </div>
+    </footer>
 </body>
 </html>
