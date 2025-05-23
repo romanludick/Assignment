@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us - Roman's Car Rentals</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
@@ -14,11 +14,11 @@
             <h1>Roman's Car Rentals</h1>
             <nav>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="fleet.html">Our Fleet</a></li>
-                    <li><a href="pricing.html">Pricing</a></li>
-                    <li><a href="contact.html" class="active">Contact</a></li>
-                    <li><a href="about.html">About</a></li>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../fleet.html">Our Fleet</a></li>
+                    <li><a href="../pricing.html">Pricing</a></li>
+                    <li><a href="index.html" class="active">Contact</a></li>
+                    <li><a href="../about.html">About</a></li>
                 </ul>
             </nav>
         </div>
@@ -30,7 +30,7 @@
             <div class="grid-container">
                 <div class="contact-container">
                     <h3>Send Us a Message</h3>
-                    <form class="contact-form">
+                    <form id="contactForm" class="contact-form">
                         <div>
                             <label for="name">Full Name</label>
                             <input type="text" id="name" name="name" required>
@@ -61,7 +61,9 @@
                             <textarea id="message" name="message" required></textarea>
                         </div>
                         
-                        <button type="submit" class="submit-btn">Send Message</button>
+                        <button type="submit" class="submit-btn">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
                     </form>
                 </div>
                 
@@ -103,5 +105,6 @@
             <p>&copy; 2025 Roman's Car Rentals. All rights reserved.</p>
         </div>
     </footer>
+    
 </body>
 </html>
