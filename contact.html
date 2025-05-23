@@ -56,14 +56,18 @@
                             </select>
                         </div>
                         
-                        <div>
-                            <label for="message">Your Message</label>
-                            <textarea id="message" name="message" required></textarea>
-                        </div>
-                        
-                        <button type="submit" class="submit-btn">Send Message</button>
-                    </form>
-                </div>
+              <!-- for contact.html -->
+                      <form class="contact-form" action="confirmation.html" method="GET">
+                      
+              <!-- existing form fields -->
+                          <div>
+                              <label for="name">Full Name</label>
+                              <input type="text" id="name" name="name" required>
+                          </div>
+                      
+              <!-- Other form fields... -->
+                          <button type="submit" class="submit-btn">Send Message</button>
+                      </form>
                 
                 <div class="contact-info">
                     <h3>Contact Information</h3>
@@ -102,17 +106,6 @@
         <div class="container">
             <p>&copy; 2025 Roman's Car Rentals. All rights reserved.</p>
         </div>
-        
-<!-- for contact.html -->
-<form class="contact-form" action="confirmation.html" method="GET">
-    <!-- existing form fields -->
-    <div>
-        <label for="name">Full Name</label>
-        <input type="text" id="name" name="name" required>
-    </div>
-    <!-- Other form fields... -->
-    <button type="submit" class="submit-btn">Send Message</button>
-</form>
         
     </footer>
 </body>
