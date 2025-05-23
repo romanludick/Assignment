@@ -117,3 +117,44 @@ header::after, .features .container::after {
     display: table;
     clear: both;
 }
+/* Fleet Page Styles */
+.fleet {
+    padding: 60px 0;
+}
+
+.vehicle-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.vehicle {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.vehicle:hover {
+    transform: translateY(-5px);
+}
+
+.vehicle img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.vehicle h3 {
+    padding: 15px;
+    background: #f8f8f8;
+}
+
+.vehicle p, .vehicle ul {
+    padding: 0 15px 15px;
+}
+
+.vehicle ul {
+    list-style-position: inside;
+}
