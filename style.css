@@ -505,7 +505,7 @@ select.reservation-selected {
 /* FAQ Button */
 
 .faq-cta {
-    text-align: left;
+    text-align: right;
     margin-top: 40px;
 }
 
