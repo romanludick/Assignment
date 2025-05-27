@@ -534,3 +534,17 @@ footer {
   color: #666;
 }
 
+*/ faq (still have question) */
+
+.faq-cta {
+  margin-top: 40px; 
+}
+
+.faq-cta p {
+  font-size: 1.2rem;
+  font-weight: bold; 
+  margin-bottom: 10px;
+  color: #333;
+}
+
+
