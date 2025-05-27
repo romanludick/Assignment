@@ -510,4 +510,9 @@ select.reservation-selected {
     padding-left: 20px; 
 }
 
+.faq-cta p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #333;
+}
 
