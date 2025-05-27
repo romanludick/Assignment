@@ -510,31 +510,9 @@ select.reservation-selected {
 
 /* FAQ Footer */
 
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
 
-.wrapper {
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
-}
 
-.faq-section {
-  flex: 1;
-}
-
-footer {
-  background-color: #f1f1f1;
-  text-align: center;
-  padding: 20px 0;
-  font-size: 0.9rem;
-  color: #666;
-}
-
-*/ faq (still have question) */
+/* faq (still have question) */
 
 .faq-cta {
   margin-top: 40px; 
