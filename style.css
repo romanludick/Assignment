@@ -502,7 +502,6 @@ select.reservation-selected {
     transform: rotate(45deg);
 }
 
-
 /* FAQ Button */
 
 .faq-cta {
@@ -528,5 +527,3 @@ select.reservation-selected {
 .faq-cta .btn:hover {
     background-color: #0056b3;
 }
-
-
