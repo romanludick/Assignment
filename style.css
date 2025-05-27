@@ -436,3 +436,70 @@ select.reservation-selected {
 
 /* Animation for scroll target */
 
+/* FAQ Style */
+
+.faq {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+}
+
+.faq h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2rem;
+    color: #333;
+}
+
+.accordion {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.accordion-item {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.accordion-btn {
+    width: 100%;
+    background: none;
+    border: none;
+    text-align: left;
+    padding: 15px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accordion-btn span {
+    font-size: 1.2rem;
+    transition: transform 0.3s ease;
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    padding: 0 15px;
+    background-color: #fff;
+}
+
+.accordion-content p {
+    margin: 10px 0;
+    color: #555;
+}
+
+/* When active */
+.accordion-item.active .accordion-content {
+    max-height: 200px; /* adjust based on content */
+}
+
+.accordion-item.active .accordion-btn span {
+    transform: rotate(45deg);
+}
+
+
