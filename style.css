@@ -506,9 +506,9 @@ select.reservation-selected {
 
 .faq-cta {
     width: 100%;
-    text-align: left;
+    text-align: center;
     margin-top: 40px;
-    padding-left: 460px; 
+    padding-left: 100px; 
 }
 
 .faq-cta p {
