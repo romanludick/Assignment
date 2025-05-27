@@ -503,3 +503,30 @@ select.reservation-selected {
 }
 
 
+/* FAQ Button */
+
+.faq-cta {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.faq-cta p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.faq-cta .btn {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.faq-cta .btn:hover {
+    background-color: #0056b3;
+}
+
+
