@@ -143,7 +143,7 @@
             }
         ];
 
-        // Function to generate vehicle HTML
+       
         function createVehicleCard(vehicle) {
             return `
                 <div class="vehicle">
@@ -169,7 +169,7 @@
                 container.innerHTML += createVehicleCard(vehicle);
             });
 
-            // Add event listeners to all book buttons
+            // book buttons
             document.querySelectorAll('.book-btn').forEach(button => {
                 button.addEventListener('click', function() {
                     const carModel = this.getAttribute('data-car');
