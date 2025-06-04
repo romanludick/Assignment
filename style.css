@@ -541,4 +541,8 @@ body {
     flex: 1;
 }
 
+/* custom image for about roman */
+.custom-roman-img {
+  object-position: top center; 
+}
 
